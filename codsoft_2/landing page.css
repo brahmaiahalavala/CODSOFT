@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+section{
+min-height: 100vh;
+background-image: url("https://www.mattpaynephotography.com/images/xl/BruceCouch2.webp");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container{
+width:85%;
+margin:auto;
+ } I
+nav{
+height:80px;
+}
+nav h1{
+float: left;
+Line-height: 80px;
+font-size: 35px;
+font-size: inline;
+color:#eb7620;
+    }
+     h2{
+        float: left;
+        Line-height: 80px;
+        font-size: 35px;
+        font-size: inline;
+        color:#eb7620;
+            }
+nav ul{
+float: right;
+Line-height: 80px;
+     }
+nav ul li{
+display: inline-block;
+List-style: none;
+padding:0px 5px;
+     }
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding:7px 6px;
+}
+nav ul li a:hover{
+    background-color:#eb7620;
+    transition: 0.6s ease;
+}
+nav ul li .active{
+    background-color:#8e320b;
+}
+.article{
+    width: 50%;
+    margin: auto;
+    text-align:center;
+    transform:translatey(26vh);
+}
+.article h1{
+    font-size: 36px;
+    color:rgb(156, 85, 136);
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.article p{
+    font-size: 18px;
+    color:#fff;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.article .btn{
+    color:#eb7620;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #2b95ca;
+}
+.article .btn:hover{
+    background-color: #1bba48;
+    transform: 0.5s ease;
+}
